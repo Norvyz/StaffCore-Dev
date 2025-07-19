@@ -19,8 +19,7 @@ El código funcional de StaffCore está protegido para evitar suplantaciones o u
 ### ¿Deseas adquirir el código completo?
 Para adquirir el bot completo (con actualizaciones, soporte y sin compartir base de datos):
 
-- Escríbenos a 📧 **staffcore.xyz@gmail.com
-** indicando tu interés y necesidades.
+- Escríbenos a 📧 **staffcore.xyz@gmail.com** indicando tu interés y necesidades.
 
 ## 🔧 Versiones Disponibles
 
