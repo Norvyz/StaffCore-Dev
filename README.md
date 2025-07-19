@@ -1,82 +1,69 @@
-# 🛡️ StaffCore - Sistema de Administración para Discord
+# 📦 STAFFCORE — BOT PROTEGIDO (Versión Personalizada)
 
-**StaffCore** es un sistema profesional de administración para servidores de Discord. Diseñado para ofrecer control total, organización y seguridad a tu equipo de moderadores.
+Hola, gracias por adquirir esta versión personalizada del bot **StaffCore**.
 
----
-
-## ⚙️ Características del Sistema
-
-- Sistema de reportes y sanciones con base de datos MongoDB.
-- Comandos slash (`/`) protegidos y personalizados.
-- Control de roles autorizados para ejecutar comandos clave.
-- Arquitectura modular (commands, models, utils).
-- Configuración y despliegue en Render o cualquier host compatible.
-- Protección del código con herramientas avanzadas.
-
-> ⚠️ El código subido a este repositorio está protegido y es solo una **versión parcial**.  
-> Para obtener la **versión completa y funcional**, consulta la sección de contacto más abajo.
+Este bot ha sido entregado como un proyecto **ya configurado y protegido** para tu servidor. Aquí tienes toda la información necesaria para usarlo correctamente.
 
 ---
 
-## 🧩 Versiones Disponibles
+## 🔐 Versión protegida
 
-> 📌 En una futura actualización, se ofrecerán dos versiones:
+Esta es una **versión protegida**: el código ha sido ofuscado y estructurado de forma que no pueda ser modificado o copiado fácilmente.
 
-### 🟢 Versión Lite
-- Funcional para servidores pequeños.
-- Sistema base sin base de datos.
-- Fácil de instalar y usar.
-
-### 🔒 Versión Pro (actual)
-- Totalmente conectada a MongoDB.
-- Sistema de permisos personalizados.
-- Código protegido para mayor seguridad.
-- Ideal para comunidades medianas y grandes.
+- ⚠️ **No intentes modificar los archivos `.js`**, ya que están protegidos para evitar errores o vulnerabilidades.
+- 🛠️ Si deseas cambios o actualizaciones, debes solicitarlos directamente al desarrollador.
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Archivos importantes
 
-
-> Nota: Algunos archivos han sido modificados o excluidos deliberadamente para proteger el código original.
-
----
-
-## 🚀 ¿Cómo funciona este repositorio?
-
-Este GitHub funciona como una **muestra visual o folleto digital** del proyecto.  
-La intención es que conozcas cómo está estructurado StaffCore, su documentación y lo que puede ofrecer, **sin exponer el código completo.**
-
----
-
-## 💼 ¿Quieres adquirir el sistema completo?
-
-Si estás interesado en obtener la **versión completa y funcional del bot StaffCore**, puedes comunicarte conmigo vía correo electrónico:
-
-📧 **norveymarquez01@gmial.com**  
-Al redactar el correo, indica:
-
-- Tu necesidad o interés específico.
-- Qué versión deseas adquirir (Lite o Pro).
-- El tipo de servidor o comunidad que tienes.
+| Archivo                  | Descripción                                                |
+|--------------------------|------------------------------------------------------------|
+| `index.js`               | Archivo principal del bot                                  |
+| `database.js`            | Configuración de conexión a MongoDB                        |
+| `autorizados.json`       | Lista de IDs autorizados para acceder a comandos especiales|
+| `.envexample`            | Guía para crear tu archivo `.env`                          |
+| `package.json`           | Configuración de dependencias del proyecto                 |
+| `commands/`              | Comandos disponibles (protegidos)                          |
+| `models/`                | Modelos de MongoDB (protegidos)                            |
+| `utils/`                 | Funciones auxiliares (protegidas)                          |
 
 ---
 
-## ✅ Recomendaciones
+## ⚙️ Configuración del entorno
 
-- No subas el archivo `.env` real en tu repositorio.
-- Este código ha sido protegido para evitar copias no autorizadas.
-- Para recibir soporte o actualizaciones, adquiere la versión con licencia oficial.
+1. Crea un archivo llamado `.env` (puedes copiar el `.envexample`).
+2. Coloca ahí tus credenciales:
+
+```env
+TOKEN=tu_token_aqui
+CLIENT_ID=tu_client_id
+MONGODB_URI=tu_uri_mongodb
+```
+
+3. Instala dependencias (una sola vez):
+```bash
+npm install
+```
+
+4. Ejecuta el bot:
+```bash
+node index.js
+```
 
 ---
 
-## 🛡️ Aviso Legal
+## 🧠 Soporte
 
-Este proyecto está protegido bajo derechos de autor.  
-**La redistribución, descompilación o modificación del código sin autorización está prohibida.**  
-La compra o adquisición incluye uso bajo licencia personal.
+Si tienes dudas, problemas o deseas agregar funciones nuevas al bot, puedes comunicarte directamente con el desarrollador.
 
 ---
 
-Gracias por interesarte en **StaffCore**.  
-¡Tu servidor merece un sistema de moderación profesional! 🎯
+## 📌 Nota legal
+
+Este bot ha sido entregado como una **versión exclusiva** para tu servidor.  
+Redistribuir, revender o modificar este bot sin autorización está **prohibido**.
+
+---
+
+*Desarrollado por Norvy — StaffCore Dev.*
